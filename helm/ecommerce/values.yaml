@@ -1,0 +1,19 @@
+namespace: ecommerce-dev
+
+image:
+  registry: myacr.azurecr.io
+
+productcatalogue:
+  image: productcatalogue
+  tag: latest
+  port: 8020
+
+shopfront:
+  image: shopfront
+  tag: latest
+  port: 8010
+
+stockmanager:
+  image: stockmanager
+  tag: latest
+  port: 8030
